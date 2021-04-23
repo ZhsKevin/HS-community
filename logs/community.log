@@ -1,0 +1,42 @@
+2021-04-23 09:36:00.120  INFO 3000 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Starting CommunityApplication on Zhsaptop with PID 3000 (started by Lenovo in D:\AZHS\毕设\HSchool\4.3-demo)
+2021-04-23 09:36:00.134  INFO 3000 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : No active profile set, falling back to default profiles: default
+2021-04-23 09:36:00.406  INFO 3000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-23 09:36:00.407  INFO 3000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-23 09:36:05.170  INFO 3000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4137559a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 09:36:06.590  INFO 3000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-04-23 09:36:06.630  INFO 3000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-23 09:36:06.631  INFO 3000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-04-23 09:36:07.314  INFO 3000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-23 09:36:07.315  INFO 3000 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6899 ms
+2021-04-23 09:36:11.395  INFO 3000 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-04-23 09:36:11.577  INFO 3000 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 09:36:11.729  INFO 3000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-23 09:36:12.203  INFO 3000 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-23 09:36:12.333  INFO 3000 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-04-23 09:36:12.578  INFO 3000 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-23 09:36:12.600  INFO 3000 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-23 09:36:12.669  INFO 3000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-23 09:36:12.889  INFO 3000 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2021-04-23 09:36:12.898  INFO 3000 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2021-04-23 09:36:12.905  INFO 3000 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2021-04-23 09:36:12.913  INFO 3000 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2021-04-23 09:36:12.943  INFO 3000 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule start Fri Apr 23 09:36:12 CST 2021
+2021-04-23 09:36:12.991  INFO 3000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-04-23 09:36:12.997  INFO 3000 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Started CommunityApplication in 14.394 seconds (JVM running for 17.606)
+2021-04-23 09:36:13.005  WARN 3000 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-04-23 09:36:13.005  INFO 3000 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-23 09:36:13.526  INFO 3000 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-23 09:36:13.619  INFO 3000 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule stop Fri Apr 23 09:36:13 CST 2021
+2021-04-23 09:36:13.619  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Fri Apr 23 09:36:13 CST 2021
+2021-04-23 09:36:13.644  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Fri Apr 23 09:36:13 CST 2021
+2021-04-23 09:36:39.763  INFO 3000 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 09:36:39.764  INFO 3000 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-23 09:36:39.775  INFO 3000 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-04-23 09:46:12.954  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Fri Apr 23 09:46:12 CST 2021
+2021-04-23 09:46:12.999  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Fri Apr 23 09:46:12 CST 2021
+2021-04-23 09:56:12.952  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Fri Apr 23 09:56:12 CST 2021
+2021-04-23 09:56:13.001  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Fri Apr 23 09:56:13 CST 2021
+2021-04-23 10:06:12.946  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Fri Apr 23 10:06:12 CST 2021
+2021-04-23 10:06:12.997  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Fri Apr 23 10:06:12 CST 2021
+2021-04-23 10:07:00.006  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.NewsUpdateTasks  : updateDiannaoNewsSchedule start Fri Apr 23 10:07:00 CST 2021
+2021-04-23 10:07:02.122  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.NewsUpdateTasks  : updateDiannaoNewsSchedule stop Fri Apr 23 10:07:02 CST 2021
