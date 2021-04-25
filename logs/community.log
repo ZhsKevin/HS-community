@@ -1,107 +1,68 @@
-2021-04-23 09:36:00.120  INFO 3000 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Starting CommunityApplication on Zhsaptop with PID 3000 (started by Lenovo in D:\AZHS\毕设\HSchool\4.3-demo)
-2021-04-23 09:36:00.134  INFO 3000 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : No active profile set, falling back to default profiles: default
-2021-04-23 09:36:00.406  INFO 3000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-04-23 09:36:00.407  INFO 3000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-04-23 09:36:05.170  INFO 3000 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4137559a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-04-23 09:36:06.590  INFO 3000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2021-04-23 09:36:06.630  INFO 3000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-04-23 09:36:06.631  INFO 3000 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2021-04-23 09:36:07.314  INFO 3000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-04-23 09:36:07.315  INFO 3000 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6899 ms
-2021-04-23 09:36:11.395  INFO 3000 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2021-04-23 09:36:11.577  INFO 3000 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-23 09:36:11.729  INFO 3000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-04-23 09:36:12.203  INFO 3000 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-04-23 09:36:12.333  INFO 3000 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2021-04-23 09:36:12.578  INFO 3000 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2021-04-23 09:36:12.600  INFO 3000 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2021-04-23 09:36:12.669  INFO 3000 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2021-04-23 09:36:12.889  INFO 3000 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
-2021-04-23 09:36:12.898  INFO 3000 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
-2021-04-23 09:36:12.905  INFO 3000 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
-2021-04-23 09:36:12.913  INFO 3000 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
-2021-04-23 09:36:12.943  INFO 3000 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule start Fri Apr 23 09:36:12 CST 2021
-2021-04-23 09:36:12.991  INFO 3000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2021-04-23 09:36:12.997  INFO 3000 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Started CommunityApplication in 14.394 seconds (JVM running for 17.606)
-2021-04-23 09:36:13.005  WARN 3000 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
-2021-04-23 09:36:13.005  INFO 3000 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-04-23 09:36:13.526  INFO 3000 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-04-23 09:36:13.619  INFO 3000 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule stop Fri Apr 23 09:36:13 CST 2021
-2021-04-23 09:36:13.619  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Fri Apr 23 09:36:13 CST 2021
-2021-04-23 09:36:13.644  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Fri Apr 23 09:36:13 CST 2021
-2021-04-23 09:36:39.763  INFO 3000 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-23 09:36:39.764  INFO 3000 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-04-23 09:36:39.775  INFO 3000 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
-2021-04-23 09:46:12.954  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Fri Apr 23 09:46:12 CST 2021
-2021-04-23 09:46:12.999  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Fri Apr 23 09:46:12 CST 2021
-2021-04-23 09:56:12.952  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Fri Apr 23 09:56:12 CST 2021
-2021-04-23 09:56:13.001  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Fri Apr 23 09:56:13 CST 2021
-2021-04-23 10:06:12.946  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Fri Apr 23 10:06:12 CST 2021
-2021-04-23 10:06:12.997  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Fri Apr 23 10:06:12 CST 2021
-2021-04-23 10:07:00.006  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.NewsUpdateTasks  : updateDiannaoNewsSchedule start Fri Apr 23 10:07:00 CST 2021
-2021-04-23 10:07:02.122  INFO 3000 --- [scheduling-1] x.hshuai.forum.schedule.NewsUpdateTasks  : updateDiannaoNewsSchedule stop Fri Apr 23 10:07:02 CST 2021
-2021-04-23 16:15:34.417  INFO 15492 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Starting CommunityApplication on Zhsaptop with PID 15492 (started by Lenovo in D:\AZHS\毕设\HSchool\HS-community)
-2021-04-23 16:15:34.420  INFO 15492 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : No active profile set, falling back to default profiles: default
-2021-04-23 16:15:34.502  INFO 15492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-04-23 16:15:34.502  INFO 15492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-04-23 16:15:36.674  INFO 15492 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1b06147] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-04-23 16:15:37.190  INFO 15492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2021-04-23 16:15:37.212  INFO 15492 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-04-23 16:15:37.212  INFO 15492 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2021-04-23 16:15:37.339  INFO 15492 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-04-23 16:15:37.339  INFO 15492 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2836 ms
-2021-04-23 16:15:38.685  INFO 15492 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2021-04-23 16:15:38.828  INFO 15492 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-23 16:15:38.909  INFO 15492 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-04-23 16:15:39.220  INFO 15492 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-04-23 16:15:39.341  INFO 15492 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2021-04-23 16:15:39.616  INFO 15492 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2021-04-23 16:15:39.648  INFO 15492 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2021-04-23 16:15:39.705  INFO 15492 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2021-04-23 16:15:39.921  INFO 15492 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
-2021-04-23 16:15:39.951  INFO 15492 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
-2021-04-23 16:15:39.974  INFO 15492 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
-2021-04-23 16:15:40.019  INFO 15492 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
-2021-04-23 16:15:40.071  INFO 15492 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule start Fri Apr 23 16:15:40 CST 2021
-2021-04-23 16:15:40.127  INFO 15492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2021-04-23 16:15:40.151  INFO 15492 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Started CommunityApplication in 6.392 seconds (JVM running for 8.312)
-2021-04-23 16:15:40.209  WARN 15492 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
-2021-04-23 16:15:40.211  INFO 15492 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-04-23 16:15:40.760  INFO 15492 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-04-23 16:15:40.833  INFO 15492 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule stop Fri Apr 23 16:15:40 CST 2021
-2021-04-23 16:15:40.833  INFO 15492 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Fri Apr 23 16:15:40 CST 2021
-2021-04-23 16:15:40.856  INFO 15492 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Fri Apr 23 16:15:40 CST 2021
-2021-04-23 16:16:04.191  INFO 15492 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-04-23 16:16:04.191  INFO 15492 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-04-23 16:16:04.199  INFO 15492 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2021-04-23 16:20:33.723  INFO 8728 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Starting CommunityApplication on Zhsaptop with PID 8728 (started by Lenovo in D:\AZHS\毕设\HSchool\HS-community)
-2021-04-23 16:20:33.727  INFO 8728 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : No active profile set, falling back to default profiles: default
-2021-04-23 16:20:33.792  INFO 8728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-04-23 16:20:33.792  INFO 8728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-04-23 16:20:35.333  INFO 8728 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f3d45073] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-04-23 16:20:35.766  INFO 8728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
-2021-04-23 16:20:35.792  INFO 8728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-04-23 16:20:35.792  INFO 8728 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2021-04-23 16:20:35.915  INFO 8728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-04-23 16:20:35.916  INFO 8728 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2123 ms
-2021-04-23 16:20:37.102  INFO 8728 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2021-04-23 16:20:37.211  INFO 8728 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-04-23 16:20:37.267  INFO 8728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-04-23 16:20:37.366  INFO 8728 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-04-23 16:20:37.445  INFO 8728 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2021-04-23 16:20:37.657  INFO 8728 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2021-04-23 16:20:37.678  INFO 8728 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2021-04-23 16:20:37.720  INFO 8728 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2021-04-23 16:20:37.910  INFO 8728 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
-2021-04-23 16:20:37.919  INFO 8728 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
-2021-04-23 16:20:37.926  INFO 8728 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
-2021-04-23 16:20:37.934  INFO 8728 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
-2021-04-23 16:20:37.954  INFO 8728 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule start Fri Apr 23 16:20:37 CST 2021
-2021-04-23 16:20:37.983  INFO 8728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
-2021-04-23 16:20:37.990  INFO 8728 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Started CommunityApplication in 4.729 seconds (JVM running for 5.994)
-2021-04-23 16:20:37.993  WARN 8728 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
-2021-04-23 16:20:37.993  INFO 8728 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-04-23 16:20:38.409  INFO 8728 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-04-23 16:20:38.480  INFO 8728 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule stop Fri Apr 23 16:20:38 CST 2021
-2021-04-23 16:20:38.480  INFO 8728 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Fri Apr 23 16:20:38 CST 2021
-2021-04-23 16:20:38.501  INFO 8728 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Fri Apr 23 16:20:38 CST 2021
+2021-04-25 20:12:59.644  INFO 24836 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Starting CommunityApplication on Zhsaptop with PID 24836 (started by Lenovo in D:\AZHS\毕设\HSchool\HS-community)
+2021-04-25 20:12:59.666  INFO 24836 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : No active profile set, falling back to default profiles: default
+2021-04-25 20:12:59.770  INFO 24836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-25 20:12:59.771  INFO 24836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-25 20:13:02.773  INFO 24836 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$be4456e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-25 20:13:03.310  INFO 24836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-04-25 20:13:03.335  INFO 24836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-25 20:13:03.335  INFO 24836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-04-25 20:13:03.469  INFO 24836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-25 20:13:03.469  INFO 24836 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3697 ms
+2021-04-25 20:13:04.840  INFO 24836 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-04-25 20:13:04.959  INFO 24836 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-25 20:13:05.030  INFO 24836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-25 20:13:05.191  INFO 24836 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-25 20:13:05.271  INFO 24836 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-04-25 20:13:05.522  INFO 24836 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-25 20:13:05.546  INFO 24836 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-25 20:13:05.591  INFO 24836 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-25 20:13:05.815  INFO 24836 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2021-04-25 20:13:05.826  INFO 24836 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2021-04-25 20:13:05.833  INFO 24836 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2021-04-25 20:13:05.841  INFO 24836 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2021-04-25 20:13:05.865  INFO 24836 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule start Sun Apr 25 20:13:05 CST 2021
+2021-04-25 20:13:05.899  INFO 24836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-04-25 20:13:05.906  INFO 24836 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Started CommunityApplication in 7.191 seconds (JVM running for 9.195)
+2021-04-25 20:13:05.913  WARN 24836 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-04-25 20:13:05.913  INFO 24836 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-25 20:13:06.345  INFO 24836 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-25 20:13:06.758  INFO 24836 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule stop Sun Apr 25 20:13:06 CST 2021
+2021-04-25 20:13:06.759  INFO 24836 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun Apr 25 20:13:06 CST 2021
+2021-04-25 20:13:06.781  INFO 24836 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun Apr 25 20:13:06 CST 2021
+2021-04-25 20:13:18.348  INFO 24836 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-25 20:13:18.349  INFO 24836 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-25 20:13:18.358  INFO 24836 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-04-25 20:14:12.160  INFO 18820 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Starting CommunityApplication on Zhsaptop with PID 18820 (started by Lenovo in D:\AZHS\毕设\HSchool\HS-community)
+2021-04-25 20:14:12.165  INFO 18820 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : No active profile set, falling back to default profiles: default
+2021-04-25 20:14:12.214  INFO 18820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-25 20:14:12.214  INFO 18820 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-25 20:14:13.718  INFO 18820 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9b731acd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-25 20:14:14.166  INFO 18820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-04-25 20:14:14.190  INFO 18820 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-25 20:14:14.190  INFO 18820 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2021-04-25 20:14:14.314  INFO 18820 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-25 20:14:14.314  INFO 18820 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2100 ms
+2021-04-25 20:14:15.416  INFO 18820 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-04-25 20:14:15.560  INFO 18820 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-25 20:14:15.616  INFO 18820 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-25 20:14:15.737  INFO 18820 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-04-25 20:14:15.822  INFO 18820 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-04-25 20:14:16.067  INFO 18820 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-25 20:14:16.087  INFO 18820 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-25 20:14:16.128  INFO 18820 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-25 20:14:16.280  INFO 18820 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_1
+2021-04-25 20:14:16.294  INFO 18820 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_1
+2021-04-25 20:14:16.302  INFO 18820 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: insertUsingPOST_2
+2021-04-25 20:14:16.310  INFO 18820 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: commentListUsingGET_2
+2021-04-25 20:14:16.332  INFO 18820 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule start Sun Apr 25 20:14:16 CST 2021
+2021-04-25 20:14:16.364  INFO 18820 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-04-25 20:14:16.369  INFO 18820 --- [restartedMain] xyz.hshuai.forum.CommunityApplication    : Started CommunityApplication in 4.774 seconds (JVM running for 6.15)
+2021-04-25 20:14:16.373  WARN 18820 --- [scheduling-1] com.zaxxer.hikari.HikariConfig           : HikariPool-1 - idleTimeout is close to or more than maxLifetime, disabling it.
+2021-04-25 20:14:16.373  INFO 18820 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-25 20:14:16.774  INFO 18820 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-25 20:14:16.846  INFO 18820 --- [scheduling-1] xyz.hshuai.forum.schedule.HotTagTasks    : hotTagSchedule stop Sun Apr 25 20:14:16 CST 2021
+2021-04-25 20:14:16.846  INFO 18820 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule start Sun Apr 25 20:14:16 CST 2021
+2021-04-25 20:14:16.868  INFO 18820 --- [scheduling-1] x.hshuai.forum.schedule.LoginUserTasks   : loginUserSchedule stop Sun Apr 25 20:14:16 CST 2021
+2021-04-25 20:14:32.448  INFO 18820 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-25 20:14:32.449  INFO 18820 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-25 20:14:32.459  INFO 18820 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
