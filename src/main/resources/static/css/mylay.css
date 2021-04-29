@@ -22,7 +22,7 @@
 .hschool-avatar img{
 
     /* border: 1px solid #fff;*/
-    -webkit-transition: .8s;
+    -webkit-transition: .5s;
     -moz-transition: .8s;
     -o-transition: .8s;
     -ms-transition: .8s;
@@ -31,11 +31,11 @@
     -moz-box-shadow:0 3px 10px #888;
     -webkit-box-shadow:0 3px 10px #888;
     transform:rotate(720deg);
-    -webkit-transform:rotate(720deg);
+    -webkit-transform:scale(1.1);
     -moz-transform:rotate(720deg);
     -o-transform:rotate(720deg);
     -ms-transform:rotate(720deg);
-    border-radius:35px;
+    border-radius:10px;
 }
 
 .p-detail blockquote{
