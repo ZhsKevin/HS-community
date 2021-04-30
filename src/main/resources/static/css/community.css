@@ -76,7 +76,8 @@ body{
 }
 
 .community-tag:hover {
-    background-color: #339dff;
+    /*background-color: #339dff;*/
+    background-color: #00b3a2;
     color: #fff !important;
     text-decoration-line: none;
 }
