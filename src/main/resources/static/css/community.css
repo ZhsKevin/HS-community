@@ -86,8 +86,8 @@ body{
     text-decoration-line: none;
     cursor: pointer;
     display: inline-block;
-    height: 20px;
-    /*line-height: 16px;*/
+    /*height: 20px;*/
+    line-height: 16px;
     padding: 3px 5px;
     /*background-color: #99cfff;*/
     background-color: #009688;
