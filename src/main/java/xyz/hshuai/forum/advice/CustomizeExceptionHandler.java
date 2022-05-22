@@ -51,7 +51,6 @@ public class CustomizeExceptionHandler {
         return ResultDTO.errorOf(e.getCode(), e.getMessage());
     }*/
 
-
     @ExceptionHandler(Exception.class)
     ModelAndView handle(Throwable e, Model model, HttpServletRequest request, HttpServletResponse response) {
         String contentType = request.getContentType();
